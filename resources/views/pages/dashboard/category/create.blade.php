@@ -9,10 +9,10 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div>
                 @if ($errors->any())
-                    <div class="px-4 py-2 font-bold text-white bg-red-600 rounded rounded-t">
+                    <div class="px-4 py-2 font-bold text-white bg-red-600 rounded-t">
                         There's something wrong !
                     </div>
-                    <div class="px-4 py-3 text-red-500 bg-red-100 border border-t-0 border-red-600 rounded rounded-b">
+                    <div class="px-4 py-3 text-red-500 bg-red-100 border border-t-0 border-red-600 rounded-b">
                         <p>
                             <ul>
                                 @foreach ($errors->all() as $error)
